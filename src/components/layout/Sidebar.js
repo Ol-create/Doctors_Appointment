@@ -157,11 +157,11 @@ const Sidebar = () => {
                 {' '}
                 &
                 {' '}
-                <a href="https://www.linkedin.com/in/edith-oga/" target="_blank" rel="noreferrer">Lucas</a>
+                <a href="https://github.com/mullenlucas/" target="_blank" rel="noreferrer">Lucas</a>
                 {' '}
                 &
                 {' '}
-                <a href="https://www.linkedin.com/in/edith-oga/" target="_blank" rel="noreferrer">Paul</a>
+                <a href="https://www.linkedin.com/in/paul-oluyemi/" target="_blank" rel="noreferrer">Paul</a>
                  </p>
             </div>
           </Offcanvas.Body>
