@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner';
 import { signIn, resetState } from '../../redux/auth/auth';
-
+/* eslint-disable-next-line react-hooks/exhaustive-deps */
 const SignIn = () => {
   const formInitialState = {
     email: '',

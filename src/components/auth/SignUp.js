@@ -1,4 +1,3 @@
-/* eslint-disable  */
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
@@ -9,7 +8,7 @@ import Spinner from 'react-bootstrap/Spinner';
 import { GrFormClose } from 'react-icons/gr';
 import { resetState, signUp } from '../../redux/auth/auth';
 import defaultAvatar from '../../assets/images/profile-pic.png';
-
+/* eslint-disable-next-line react-hooks/exhaustive-deps */
 const SignUp = () => {
   const formInitialState = {
     name: '',
