@@ -11,7 +11,7 @@ import { GrFormClose } from 'react-icons/gr';
 import { createDoctor, resetCreateDoctorState } from '../../../redux/doctors/doctorCreate';
 import { getDoctors } from '../../../redux/doctors/doctorsIndex';
 import defaultAvatar from '../../../assets/images/profile-pic.png';
-
+/* eslint-disable react-hooks/exhaustive-deps */
 const DoctorNew = () => {
   const { userSignedIn, currentUser, status: userAuthStatus } = useSelector((state) => state.auth);
   const doctorState = useSelector((state) => state.doctor_create);

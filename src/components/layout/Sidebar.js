@@ -18,7 +18,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import { signOut } from '../../redux/auth/auth';
 import logos from '../../assets/images/Logo.png';
 import { clearBookings } from '../../redux/bookings/bookings';
-
+/* eslint-disable react-hooks/exhaustive-deps */
 const Sidebar = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();

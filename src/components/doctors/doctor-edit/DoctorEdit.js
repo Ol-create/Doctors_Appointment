@@ -13,7 +13,7 @@ import { GrFormClose } from 'react-icons/gr';
 import { getDoctors } from '../../../redux/doctors/doctorsIndex';
 import { getDoctor, resetShowDoctorState } from '../../../redux/doctors/doctorShow';
 import { updateDoctor, resetUpdateDoctorState } from '../../../redux/doctors/doctorUpdate';
-
+/* eslint-disable react-hooks/exhaustive-deps */
 const DoctorEdit = () => {
   const { userSignedIn, currentUser, status: userAuthStatus } = useSelector((state) => state.auth);
   const doctorUpdateState = useSelector((state) => state.doctor_update);

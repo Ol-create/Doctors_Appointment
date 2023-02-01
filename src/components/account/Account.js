@@ -10,7 +10,7 @@ import { updateUser, resetUpdateUserState } from '../../redux/users/usersEdit';
 import { destroyUser, resetDestroyUserState } from '../../redux/users/usersDestroy';
 import { updateCurrentUser, signOut } from '../../redux/auth/auth';
 import defaultAvatar from '../../assets/images/profile-pic.png';
-/* eslint-disable-next-line react-hooks/exhaustive-deps */
+/* eslint-disable react-hooks/exhaustive-deps */
 const Account = () => {
   const userState = useSelector((state) => state.users_edit);
   const userDeleteState = useSelector((state) => state.users_destroy);
