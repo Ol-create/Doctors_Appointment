@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable  */
 import React, { useEffect, useState } from 'react';
 import {
   Navigate, useLocation, useNavigate, useParams,
