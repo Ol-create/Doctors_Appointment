@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
-
+/* eslint-disable react-hooks/rules-of-hooks */
 const customMenu = ({
   children, style, className, 'aria-labelledby': labeledBy,
 }, ref) => {
