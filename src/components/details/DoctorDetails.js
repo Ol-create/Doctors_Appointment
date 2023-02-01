@@ -80,6 +80,59 @@ const Detail = () => {
     </Container>
   );
 
+  // return (
+  //   <section className="detail-section">
+  //     <div className="top-details">
+  //       <img src={doctor.avatar_url} alt="Profle" className="profile-pic" />
+  //       <p className="bio-head">Biography</p>
+  //       <p className="bio">
+  //         { doctor.bio }
+  //       </p>
+  //     </div>
+  //     <div className="bottom-details">
+  //       <ul className="doctor-items">
+  //         <div className="inner-listing">
+  //           <li><strong>Name:</strong></li>
+  //           <li className="inner-listing2">
+  //             {' '}
+  //             { doctor.name }
+  //           </li>
+  //         </div>
+  //         <div className="inner-listing">
+  //           <li><strong>Phone No:</strong></li>
+  //           <li className="inner-listing2">
+  //             {' '}
+  //             { doctor.phone }
+  //           </li>
+  //         </div>
+  //         <div className="inner-listing">
+  //           <li><strong>Location:</strong></li>
+  //           <li className="inner-listing2">
+  //             {' '}
+  //             { doctor.location }
+  //           </li>
+  //         </div>
+  //         <div className="inner-listing">
+  //           <li><strong>Charges:</strong></li>
+  //           <li className="inner-listing2">
+  //             {' '}
+  //             $
+  //             { doctor.rates }
+  //             /hr
+  //           </li>
+  //         </div>
+  //         <div className="inner-listing">
+  //           <li><strong>Email:</strong></li>
+  //           <li className="inner-listing2">
+  //             { doctor.email }
+  //             {' '}
+  //           </li>
+  //         </div>
+  //       </ul>
+  //       <Button href={mylink} variant="primary" size="lg" className="resrvebtn">Book</Button>
+  //     </div>
+  //   </section>
+  // );
 };
 
 export default Detail;

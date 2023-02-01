@@ -1,4 +1,4 @@
-const API_BOOKINGS_UPDATE_ENDPOINT = `${process.env.REACT_APP_API_HOST}/api/v1/bookings`;
+const API_BOOKINGS_UPDATE_ENDPOINT = `http://127.0.0.1:3001/api/v1/bookings`;
 const REQUEST_STARTED = 'book-a-doctor/doctorsUpdate/REQUEST_STARTED';
 const REQUEST_FAILED = 'book-a-doctor/doctorsUpdate/REQUEST_FAILED';
 const REQUEST_COMPLETED = 'book-a-doctor/doctorsUpdate/REQUEST_COMPLETED';

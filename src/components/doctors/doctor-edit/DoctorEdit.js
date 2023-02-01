@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect, useState } from 'react';
 import {
   Navigate, useLocation, useNavigate, useParams,
@@ -47,7 +46,7 @@ const DoctorEdit = () => {
       navigate('/doctors/new', { state: { notice: `Something went wrong: ${doctorUpdateState.error}` } });
     }
     if (doctorUpdateState.status === 'success') {
-      navigate('/doctors', { state: { notice: 'doctor updated successfully!' } });
+      navigate('/doctors', { state: { notice: 'Doctor updated successfully!' } });
       dispatch(getDoctors());
     }
   }, [doctorUpdateState.status]);

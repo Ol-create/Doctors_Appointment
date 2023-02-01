@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
+
 import React, { useEffect, useState } from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
@@ -37,7 +37,7 @@ const DoctorNew = () => {
       navigate('/doctors/new', { state: { notice: `Something went wrong: ${doctorState.error}` } });
     }
     if (doctorState.status === 'success') {
-      navigate('/doctors', { state: { notice: 'doctor added successfully!' } });
+      navigate('/doctors', { state: { notice: 'Doctor added successfully!' } });
       dispatch(getDoctors());
     }
   }, [doctorState.status]);

@@ -40,7 +40,7 @@ const Sidebar = () => {
     }
   }, [authStatus]);
 
-  const navActive = ({ isActive }) => (isActive ? { backgroundColor: '#154d05', color: 'white' } : {});
+  const navActive = ({ isActive }) => (isActive ? { backgroundColor: '#96bf01', color: 'white' } : {});
 
   const signoutHandler = () => {
     setShowSidebar((state) => !state);
@@ -126,43 +126,39 @@ const Sidebar = () => {
               <ul className="list-unstyled d-flex social-icons gap-3">
                 <li className="text-secondary">
                   <a href="/#">
-                    <EmailIcon className="the-item" sx={{ "& :hover": { color: "#B23121" } }} />
+                    <EmailIcon className="the-item" />
                   </a>
                 </li>
                 <li>
                   <a href="/#">
-                    <FacebookIcon className="the-item" sx={{ "& :hover": { color: "#3b5998" } }}  />
+                    <FacebookIcon className="the-item" />
                   </a>
                 </li>
                 <li>
                   <a href="/#">
-                    <TwitterIcon className="the-item" sx={{ "& :hover": { color: "#00ACEE" } }} />
+                    <TwitterIcon className="the-item" />
                   </a>
                 </li>
                 <li>
-                  <a href="/#"> 
-                    <InstagramIcon className="the-item" sx={{ "& :hover": { color: "#d6249f" } }} />
+                  <a href="/#">
+                    <InstagramIcon className="the-item" />
                   </a>
                 </li>
                 <li>
                   <a href="/">
-                    <LinkedInIcon className="the-item" sx={{ "& :hover": { color: "#0e76a8" } }}/>
+                    <LinkedInIcon className="the-item" />
                   </a>
                 </li>
               </ul>
               <p className="small m-0">
                 ©2022 Doctors |
                 {' '}
-                <a href="https://www.linkedin.com/in/edith-oga/" target="_blank" rel="noreferrer">Edith</a>
+                <a href="https://www.linkedin.com/in/richardoppiyo/" target="_blank" rel="noreferrer">Ricky</a>
                 {' '}
                 &
                 {' '}
-                <a href="https://github.com/mullenlucas/" target="_blank" rel="noreferrer">Lucas</a>
-                {' '}
-                &
-                {' '}
-                <a href="https://www.linkedin.com/in/paul-oluyemi/" target="_blank" rel="noreferrer">Paul</a>
-                 </p>
+                <a href="https://www.linkedin.com/in/kenny-salazar-granados/" target="_blank" rel="noreferrer">Kenny</a>
+              </p>
             </div>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

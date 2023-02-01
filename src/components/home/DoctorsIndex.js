@@ -46,7 +46,7 @@ const DoctorsIndex = () => {
         {doctorsState.doctors.length
           ? (
             <Container fluid="sm" className="p-0 my-auto">
-              <doctorsCarousel items={doctorsState.doctors} />
+              <DoctorsCarousel items={doctorsState.doctors} />
             </Container>
           ) : (
             <Container fluid="sm">

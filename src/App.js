@@ -5,7 +5,7 @@ import Home from './components/home/Home';
 import Doctor from './components/details/Details';
 import SignUp from './components/auth/SignUp';
 import SignIn from './components/auth/SignIn';
-import Bookings from './components/booking/Bookings';
+import Bookings from './components/bookings/Bookings';
 import Book from './components/book/Book';
 import Account from './components/account/Account';
 import Doctors from './components/doctors/Doctors';
