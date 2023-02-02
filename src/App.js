@@ -12,8 +12,6 @@ import Doctors from './components/doctors/Doctors';
 import DoctorNew from './components/doctors/doctor-new/DoctorNew';
 import DoctorEdit from './components/doctors/doctor-edit/DoctorEdit';
 
-
-
 const App = () => (
   <Router>
     <Routes>
