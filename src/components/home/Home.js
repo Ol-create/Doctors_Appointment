@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import Welcome from './Welcome';
 import { resetState } from '../../redux/auth/auth';
 import DoctorsIndex from './DoctorsIndex';
-
+/* eslint-disable react-hooks/exhaustive-deps */
 const Home = () => {
   const { userSignedIn, status: authStatus } = useSelector((state) => state.auth);
   const dispatch = useDispatch();

@@ -16,7 +16,7 @@ import CustomDropMenu from './CustomDropMenu';
 import { getDoctors } from '../../redux/doctors/doctorsIndex';
 import { createBooking, resetCreateBookingState } from '../../redux/bookings/bookingsCreate';
 import { fechBookings } from '../../redux/bookings/bookings';
-
+/* eslint-disable react-hooks/exhaustive-deps */
 const Book = () => {
   const [params] = useSearchParams();
   const selectedDoctor = params.get('doctor');

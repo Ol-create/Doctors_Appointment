@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 import { destroyDoctor, resetDestroyDoctorState } from '../../redux/doctors/doctorDestroy';
 import { getDoctors } from '../../redux/doctors/doctorsIndex';
 import DoctorsTable from './DoctorsTable';
-
+/* eslint-disable react-hooks/exhaustive-deps */
 const DoctorsAdminDashboard = ({ doctors }) => {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(null);
   const destroyDoctorState = useSelector((state) => state.doctor_destroy);

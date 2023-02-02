@@ -40,7 +40,7 @@ const Sidebar = () => {
     }
   }, [authStatus]);
 
-  const navActive = ({ isActive }) => (isActive ? { backgroundColor: '#96bf01', color: 'white' } : {});
+  const navActive = ({ isActive }) => (isActive ? { backgroundColor: '#154d05', color: 'white' } : {});
 
   const signoutHandler = () => {
     setShowSidebar((state) => !state);
