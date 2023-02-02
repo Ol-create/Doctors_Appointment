@@ -18,7 +18,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import { signOut } from '../../redux/auth/auth';
 import logos from '../../assets/images/Logo.png';
 import { clearBookings } from '../../redux/bookings/bookings';
-/* eslint-disable react-hooks/exhaustive-deps */
+
 const Sidebar = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -131,7 +131,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                   <a href="/#">
-                    <FacebookIcon className="the-item" sx={{ "& :hover": { color: "#3b5998" } }}  />
+                    <FacebookIcon className="the-item" sx={{ "& :hover": { color: "#3b5998" } }} />
                   </a>
                 </li>
                 <li>
@@ -140,18 +140,18 @@ const Sidebar = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/#"> 
+                  <a href="/#">
                     <InstagramIcon className="the-item" sx={{ "& :hover": { color: "#d6249f" } }} />
                   </a>
                 </li>
                 <li>
                   <a href="/">
-                    <LinkedInIcon className="the-item" sx={{ "& :hover": { color: "#0e76a8" } }}/>
+                    <LinkedInIcon className="the-item" sx={{ "& :hover": { color: "#0e76a8" } }} />
                   </a>
                 </li>
               </ul>
               <p className="small m-0">
-                ©2022 Doctors |
+              ©2023 Doctors |
                 {' '}
                 <a href="https://www.linkedin.com/in/edith-oga/" target="_blank" rel="noreferrer">Edith</a>
                 {' '}
@@ -162,7 +162,7 @@ const Sidebar = () => {
                 &
                 {' '}
                 <a href="https://www.linkedin.com/in/paul-oluyemi/" target="_blank" rel="noreferrer">Paul</a>
-                 </p>
+              </p>
             </div>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

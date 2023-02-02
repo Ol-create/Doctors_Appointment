@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
@@ -11,7 +10,7 @@ import { GrFormClose } from 'react-icons/gr';
 import { createDoctor, resetCreateDoctorState } from '../../../redux/doctors/doctorCreate';
 import { getDoctors } from '../../../redux/doctors/doctorsIndex';
 import defaultAvatar from '../../../assets/images/profile-pic.png';
-/* eslint-disable react-hooks/exhaustive-deps */
+
 const DoctorNew = () => {
   const { userSignedIn, currentUser, status: userAuthStatus } = useSelector((state) => state.auth);
   const doctorState = useSelector((state) => state.doctor_create);
@@ -37,7 +36,7 @@ const DoctorNew = () => {
       navigate('/doctors/new', { state: { notice: `Something went wrong: ${doctorState.error}` } });
     }
     if (doctorState.status === 'success') {
-      navigate('/doctors', { state: { notice: 'doctor added successfully!' } });
+      navigate('/doctors', { state: { notice: 'Doctor added successfully!' } });
       dispatch(getDoctors());
     }
   }, [doctorState.status]);

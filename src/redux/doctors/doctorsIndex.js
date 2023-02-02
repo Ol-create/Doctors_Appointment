@@ -1,4 +1,4 @@
-const API_DOCTORS_INDEX_ENDPOINT = `${process.env.REACT_APP_API_HOST}/api/v1/doctors`;
+const API_DOCTORS_INDEX_ENDPOINT = `http://127.0.0.1:3001/api/v1/doctors`;
 const REQUEST_STARTED = 'book-a-doctor/doctors/REQUEST_STARTED';
 const REQUEST_FAILED = 'book-a-doctor/doctors/REQUEST_FAILED';
 const REQUEST_COMPLETED = 'book-a-doctor/doctors/REQUEST_COMPLETED';

@@ -11,7 +11,7 @@ const DoctorCard = ({
     <Link to={`/doctors/${id}`} className="d-block text-decoration-none text-reset">
       <img src={avatarUrl} alt={name} />
     </Link>
-    <Link to={`/doctorss/${id}`} className="d-block text-decoration-none text-reset">
+    <Link to={`/doctors/${id}`} className="d-block text-decoration-none text-reset">
       <p className="name">{name.toUpperCase()}</p>
     </Link>
     <p className="info">{`${location} | $${rates} / hr`}</p>

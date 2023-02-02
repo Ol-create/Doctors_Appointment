@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 const customMenu = ({
   children, style, className, 'aria-labelledby': labeledBy,
 }, ref) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [value, setValue] = useState('');
 
   return (

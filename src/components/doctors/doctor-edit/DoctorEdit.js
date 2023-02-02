@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import {
   Navigate, useLocation, useNavigate, useParams,
@@ -13,7 +12,7 @@ import { GrFormClose } from 'react-icons/gr';
 import { getDoctors } from '../../../redux/doctors/doctorsIndex';
 import { getDoctor, resetShowDoctorState } from '../../../redux/doctors/doctorShow';
 import { updateDoctor, resetUpdateDoctorState } from '../../../redux/doctors/doctorUpdate';
-/* eslint-disable react-hooks/exhaustive-deps */
+
 const DoctorEdit = () => {
   const { userSignedIn, currentUser, status: userAuthStatus } = useSelector((state) => state.auth);
   const doctorUpdateState = useSelector((state) => state.doctor_update);
@@ -47,7 +46,7 @@ const DoctorEdit = () => {
       navigate('/doctors/new', { state: { notice: `Something went wrong: ${doctorUpdateState.error}` } });
     }
     if (doctorUpdateState.status === 'success') {
-      navigate('/doctors', { state: { notice: 'doctor updated successfully!' } });
+      navigate('/doctors', { state: { notice: 'Doctor updated successfully!' } });
       dispatch(getDoctors());
     }
   }, [doctorUpdateState.status]);

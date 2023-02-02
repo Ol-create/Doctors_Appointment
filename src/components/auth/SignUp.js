@@ -8,7 +8,7 @@ import Spinner from 'react-bootstrap/Spinner';
 import { GrFormClose } from 'react-icons/gr';
 import { resetState, signUp } from '../../redux/auth/auth';
 import defaultAvatar from '../../assets/images/profile-pic.png';
-/* eslint-disable react-hooks/exhaustive-deps */
+
 const SignUp = () => {
   const formInitialState = {
     name: '',

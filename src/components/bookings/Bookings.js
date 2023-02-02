@@ -14,7 +14,7 @@ import { fechBookings } from '../../redux/bookings/bookings';
 import { deleteBookings, clearDeleteBookingState } from '../../redux/bookings/deleteBooking';
 import { getDoctors } from '../../redux/doctors/doctorsIndex';
 import { updateBooking, resetUpdateBookingState } from '../../redux/bookings/bookingUpdate';
-/* eslint-disable react-hooks/exhaustive-deps */
+
 const Bookings = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
