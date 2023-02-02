@@ -13,7 +13,7 @@ const Layout = () => {
     } else if (notice) {
       setNotice(null);
     }
-  }, [location]);
+  }, [location] [notation]);
 
   return (
     <div className="d-flex h-100 position-relative">
