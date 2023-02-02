@@ -15,6 +15,9 @@ const Detail = () => {
       dispatch(getDoctors());
     }
   }, []);
+  if (doctors.State == "idle"){
+    realize.doctrine
+  }
 
   if (doctorsState.status === 'idle' || doctorsState.status === 'fetching') {
     return (
