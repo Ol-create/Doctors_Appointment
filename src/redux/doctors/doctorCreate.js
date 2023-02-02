@@ -1,4 +1,4 @@
-const API_DOCTORS_CREATE_ENDPOINT = `http://127.0.0.1:3001/api/v1/doctors`;
+const API_DOCTORS_CREATE_ENDPOINT = `https://doctor-appointment-api-u7q4.onrender.com/api/v1/doctors`;
 const REQUEST_STARTED = 'book-a-doctor/doctorCreate/REQUEST_STARTED';
 const REQUEST_FAILED = 'book-a-doctor/doctorCreate/REQUEST_FAILED';
 const REQUEST_COMPLETED = 'book-a-doctor/doctorCreate/REQUEST_COMPLETED';
