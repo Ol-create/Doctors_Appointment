@@ -126,38 +126,42 @@ const Sidebar = () => {
               <ul className="list-unstyled d-flex social-icons gap-3">
                 <li className="text-secondary">
                   <a href="/#">
-                    <EmailIcon className="the-item" />
+                    <EmailIcon className="the-item" sx={{ "& :hover": { color: "#B23121" } }} />
                   </a>
                 </li>
                 <li>
                   <a href="/#">
-                    <FacebookIcon className="the-item" />
+                    <FacebookIcon className="the-item" sx={{ "& :hover": { color: "#3b5998" } }} />
                   </a>
                 </li>
                 <li>
                   <a href="/#">
-                    <TwitterIcon className="the-item" />
+                    <TwitterIcon className="the-item" sx={{ "& :hover": { color: "#00ACEE" } }} />
                   </a>
                 </li>
                 <li>
                   <a href="/#">
-                    <InstagramIcon className="the-item" />
+                    <InstagramIcon className="the-item" sx={{ "& :hover": { color: "#d6249f" } }} />
                   </a>
                 </li>
                 <li>
                   <a href="/">
-                    <LinkedInIcon className="the-item" />
+                    <LinkedInIcon className="the-item" sx={{ "& :hover": { color: "#0e76a8" } }} />
                   </a>
                 </li>
               </ul>
               <p className="small m-0">
-                ©2022 Doctors |
+              ©2023 Doctors |
                 {' '}
-                <a href="https://www.linkedin.com/in/richardoppiyo/" target="_blank" rel="noreferrer">Ricky</a>
+                <a href="https://www.linkedin.com/in/edith-oga/" target="_blank" rel="noreferrer">Edith</a>
                 {' '}
                 &
                 {' '}
-                <a href="https://www.linkedin.com/in/kenny-salazar-granados/" target="_blank" rel="noreferrer">Kenny</a>
+                <a href="https://github.com/mullenlucas/" target="_blank" rel="noreferrer">Lucas</a>
+                {' '}
+                &
+                {' '}
+                <a href="https://www.linkedin.com/in/paul-oluyemi/" target="_blank" rel="noreferrer">Paul</a>
               </p>
             </div>
           </Offcanvas.Body>
