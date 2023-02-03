@@ -91,22 +91,36 @@ cd doctors_appointment_front_end
 
 ### Install
 
-In the project directory, you can run:
+- In the project directory, install the neccessary packages with the following command:
 
-### `npm start`
+```
+npm i --legacy-peer-deps
+```
+> The --legacy-peer-deps options is because of using some older packages of react for using an older version of React
+
+- After installing, run:
+
+```
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+- You may also see any lint errors in the console.
+```
+npm test
+````
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+- For building the application for deployment:
+```
+yarn build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
