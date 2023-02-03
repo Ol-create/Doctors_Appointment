@@ -86,7 +86,7 @@ const Book = () => {
 
     return (
       <Button type="button" variant="secondary" className="d-flex align-items-center gap-2 py-1 w-100" onClick={clickHandler}>
-        <img src={doctorToRemove.avatar_url} alt={doctorToRemove.name} style={{ width: '35px', height: '35px' }} className="doctor-thumbnail" />
+        <img src={doctorToRemove.avatar} alt={doctorToRemove.name} style={{ width: '35px', height: '35px' }} className="doctor-thumbnail" />
         <p className="m-0 text-truncate">{`${doctorToRemove.name} | $${doctorToRemove.rates}/hr`}</p>
         <IoClose className="text-light fs-4 ms-auto" />
       </Button>
@@ -151,7 +151,7 @@ const Book = () => {
                   <Dropdown.Menu as={CustomDropMenu}>
                     {doctors?.map((doctor, index) => (
                       <Dropdown.Item eventKey={index + 1} data-doctorid={doctor.id} key={doctor.id} id={doctor.name} className="d-flex gap-2 align-items-center">
-                        <img src={doctor.avatar_url} alt={doctor.name} className="doctor-thumbnail" />
+                        <img src={doctor.avatar} alt={doctor.name} className="doctor-thumbnail" />
                         <p className="m-0 text-truncate">{`${doctor.name} | $${doctor.rates}/hr`}</p>
                       </Dropdown.Item>
                     ))}

@@ -40,7 +40,7 @@ const Detail = () => {
   return (
     <Container fluid="sm" as="section" className="py-3 px-xl-5 my-auto d-flex flex-column flex-xl-row text-center detail-section">
       <div className="top-details p-3">
-        <img src={doctor.avatar_url} alt="Profle" className="profile-pic" />
+        <img src={doctor.avatar} alt="Profle" className="profile-pic" />
         <p className="m-0 mt-3">
           { doctor.bio }
         </p>
@@ -83,7 +83,7 @@ const Detail = () => {
   // return (
   //   <section className="detail-section">
   //     <div className="top-details">
-  //       <img src={doctor.avatar_url} alt="Profle" className="profile-pic" />
+  //       <img src={doctor.avatar} alt="Profle" className="profile-pic" />
   //       <p className="bio-head">Biography</p>
   //       <p className="bio">
   //         { doctor.bio }

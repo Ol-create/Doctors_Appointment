@@ -175,7 +175,7 @@ const Bookings = () => {
               <div>
                 <p>Doctor:</p>
                 <div className="d-flex align-items-center ms-4">
-                  <img src={doctorsState.doctors.filter((item) => item.id === book.doctor_id)[0].avatar_url} alt="Profle" className="doctor-thumb" />
+                  <img src={doctorsState.doctors.filter((item) => item.id === book.doctor_id)[0].avatar} alt="Profle" className="doctor-thumb" />
                   <p className="m-0 ms-2">{doctorsState.doctors.filter((item) => item.id === book.doctor_id)[0].name}</p>
                 </div>
                 <div className="ms-auto fw-bold">{`#${book.id}`}</div>

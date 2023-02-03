@@ -32,7 +32,7 @@ const DoctorEdit = () => {
     rates: doctorToEdit?.rates || '',
     avatar: {
       value: '',
-      preview: doctorToEdit?.avatar_url,
+      preview: doctorToEdit?.avatar,
       file: null,
     },
   };
@@ -72,7 +72,7 @@ const DoctorEdit = () => {
         rates: doctorShowState.doctor.rates,
         avatar: {
           value: '',
-          preview: doctorShowState.doctor.avatar_url,
+          preview: doctorShowState.doctor.avatar,
           file: null,
         },
       });
