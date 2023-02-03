@@ -57,7 +57,7 @@ DoctorsTable.propTypes = {
     location: PropTypes.string,
     rates: PropTypes.number,
     bio: PropTypes.string,
-    avatar_url: PropTypes.string,
+    avatar: PropTypes.string,
     id: PropTypes.number,
     created_at: PropTypes.string,
     updated_at: PropTypes.string,

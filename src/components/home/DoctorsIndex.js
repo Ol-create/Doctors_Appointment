@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Spinner from 'react-bootstrap/Spinner';
 import { getDoctors } from '../../redux/doctors/doctorsIndex';
 import DoctorsCarousel from './carousel/DoctorsCarousel';
-/* eslint-disable react-hooks/exhaustive-deps */
+
 const DoctorsIndex = () => {
   const dispatch = useDispatch();
   const doctorsState = useSelector((state) => state.doctors);

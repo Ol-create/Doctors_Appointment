@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Carousel from 'react-bootstrap/Carousel';
 import { BsCaretRight, BsCaretLeft } from 'react-icons/bs';
 import DoctorCard from './DoctorCard';
-/* eslint-disable react-hooks/exhaustive-deps */
+
 const DoctorsCarousel = ({ items }) => {
   const carouselContainer = useRef(null);
   const [containerWidth, setContainerWidth] = useState(0);
@@ -44,7 +44,7 @@ const DoctorsCarousel = ({ items }) => {
           <DoctorCard
             key={items[k].id}
             name={items[k].name}
-            avatarUrl={items[k].avatar_url}
+            avatarUrl={items[k].avatar}
             location={items[k].location}
             rates={items[k].rates}
             id={items[k].id}
@@ -94,7 +94,7 @@ DoctorsCarousel.propTypes = {
     location: PropTypes.string,
     rates: PropTypes.number,
     bio: PropTypes.string,
-    avatar_url: PropTypes.string,
+    avatar: PropTypes.string,
     id: PropTypes.number,
     created_at: PropTypes.string,
     updated_at: PropTypes.string,
