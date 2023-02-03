@@ -88,13 +88,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 git clone https://github.com/Ol-create/Doctors_Appointment_Back_End.git
 cd doctors_appointment_back_end
 bundle install
+```
+
+### Run the backend repository (in port 3001)
+```
 rails s -p 3001
 ```
 ##### Note that the back-end repository runs in port 3001 (this is important because the `.env` file of the frontend reads from this port to run the app)
 
-### Clone the Frontend repository
+### Clone the Frontend repository (use the same shell)
 
 ```shell
+cd ..
 git clone https://github.com/Ol-create/Doctors_Appointment_Front_End
 cd doctors_appointment_front_end
 ```
