@@ -39,7 +39,11 @@
   top: 11px;
 }
 
-
+.react-datepicker__input-container {
+  input {
+    width: 100%;
+  }
+}
 
 .react-datepicker__day {
   @media (max-width: 375px) {
