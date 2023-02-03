@@ -57,7 +57,21 @@
   min-width: 255px;
 }
 
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 3.5rem;
 
+  @media (max-width: 375px) {
+    margin-top: 2rem;
+
+    .link-item {
+      padding: 7px 7px 7px 15px;
+      font-size: 1.3rem;
+    }
+  }
+}
 
 .link-item {
   padding: 15px 15px 15px 30px;
