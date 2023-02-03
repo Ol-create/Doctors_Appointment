@@ -82,7 +82,17 @@ The frontend is hosted in [onrender](https://panghealth.onrender.com)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-### Clone the repository
+### Clone the back-end repository and set it up
+
+```
+git clone https://github.com/Ol-create/Doctors_Appointment_Back_End.git
+cd doctors_appointment_back_end
+bundle install
+rails s -p 3001
+```
+##### Note that the back-end repository runs in port 3001 (this is important because the `.env` file of the frontend reads from this port to run the app)
+
+### Clone the Frontend repository
 
 ```shell
 git clone https://github.com/Ol-create/Doctors_Appointment_Front_End
