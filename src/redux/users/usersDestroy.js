@@ -1,4 +1,4 @@
-const API_BOOKINGS_DELETE_ENDPOINT = `https://doctor-appointment-api-u7q4.onrender.com/users`;
+const API_BOOKINGS_DELETE_ENDPOINT = `${process.env.REACT_APP_API_HOST}/users`;
 const REQUEST_STARTED = 'book-a-doctor/usersDestroy/REQUEST_STARTED';
 const REQUEST_FAILED = 'book-a-doctor/usersDestroy/REQUEST_FAILED';
 const REQUEST_COMPLETED = 'book-a-doctor/usersDestroy/REQUEST_COMPLETED';

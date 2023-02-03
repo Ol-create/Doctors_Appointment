@@ -1,4 +1,4 @@
-const API_BOOKINGS_CREATE_ENDPOINT = `https://doctor-appointment-api-u7q4.onrender.com/api/v1/bookings`;
+const API_BOOKINGS_CREATE_ENDPOINT = `${process.env.REACT_APP_API_HOST}/api/v1/bookings`;
 const REQUEST_STARTED = 'book-a-doctor/doctorsCreate/REQUEST_STARTED';
 const REQUEST_FAILED = 'book-a-doctor/doctorsCreate/REQUEST_FAILED';
 const REQUEST_COMPLETED = 'book-a-doctor/doctorsCreate/REQUEST_COMPLETED';
