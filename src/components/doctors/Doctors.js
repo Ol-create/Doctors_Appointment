@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Spinner from 'react-bootstrap/Spinner';
 import { getDoctors } from '../../redux/doctors/doctorsIndex';
 import DoctorsAdminDashboard from './DoctorsAdminDashboard';
-/* eslint-disable react-hooks/exhaustive-deps */
+
 const Doctors = () => {
   const { userSignedIn, currentUser, status: userAuthStatus } = useSelector((state) => state.auth);
   const {

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Carousel from 'react-bootstrap/Carousel';
 import { BsCaretRight, BsCaretLeft } from 'react-icons/bs';
 import DoctorCard from './DoctorCard';
-/* eslint-disable react-hooks/exhaustive-deps */
+
 const DoctorsCarousel = ({ items }) => {
   const carouselContainer = useRef(null);
   const [containerWidth, setContainerWidth] = useState(0);
