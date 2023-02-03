@@ -90,6 +90,11 @@ cd doctors_appointment_back_end
 bundle install
 ```
 
+#### Note: 
+> Be sure to follow the setting-up instructions of the backend. It needs an .env file to connect to the local PostgreSQL database
+
+After setting-up the back end:
+
 ### Run the backend repository (in port 3001)
 ```
 rails s -p 3001
