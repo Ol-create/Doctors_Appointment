@@ -62,7 +62,21 @@
   border: 1px solid;
 }
 
+.doctors-carousel {
+  .carousel-inner {
+    padding: 0 74px 39px;
 
+    @media (max-width: 375px) {
+      padding: 0 40px 39px;
+    }
+  }
+
+  .carousel-item.active,
+  .carousel-item-next,
+  .carousel-item-prev {
+    display: flex;
+  }
+}
 
 .carousel-next-icon,
 .carousel-prev-icon {
