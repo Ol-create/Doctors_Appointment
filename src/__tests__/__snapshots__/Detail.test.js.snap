@@ -1,61 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home renders correctly 1`] = `
+exports[`DoctorDetails renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="p-0 h-100 container-fluid"
-      >
-        <section
-          class="py-2 welcome container-fluid"
-        >
-          <div
-            class="text-center text-light"
-          >
-            <h1>
-              Book-a-Doctor
-            </h1>
-            <p>
-              Welcome to NowDoctor, the only app you will need for taking care of your health
-            </p>
-            <button
-              class="text-light fw-bold px-4 btn btn-primary"
-              type="button"
-            >
-              GET STARTED
-            </button>
-          </div>
-        </section>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="p-0 h-100 container-fluid"
-    >
       <section
-        class="py-2 welcome container-fluid"
+        class="py-2 doctors align-items-center container-fluid"
       >
         <div
-          class="text-center text-light"
+          class="my-auto spinner-border text-primary"
+          role="status"
         >
-          <h1>
-            Book-a-Doctor
-          </h1>
-          <p>
-            Welcome to NowDoctor, the only app you will need for taking care of your health
-          </p>
-          <button
-            class="text-light fw-bold px-4 btn btn-primary"
-            type="button"
+          <span
+            class="visually-hidden"
           >
-            GET STARTED
-          </button>
+            Loading...
+          </span>
         </div>
       </section>
     </div>
+  </body>,
+  "container": <div>
+    <section
+      class="py-2 doctors align-items-center container-fluid"
+    >
+      <div
+        class="my-auto spinner-border text-primary"
+        role="status"
+      >
+        <span
+          class="visually-hidden"
+        >
+          Loading...
+        </span>
+      </div>
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -100,13 +100,13 @@ const Sidebar = () => {
           <HiMenuAlt4 style={{ fontSize: '2.5rem', color: 'black' }} />
         </Navbar.Toggle>
         <Navbar.Offcanvas id="offcanvasNavbar-expand">
-          <Offcanvas.Header closeButton className="pb-0">
+          {/* <Offcanvas.Header closeButton className="pb-0">
             <Offcanvas.Title>
               <Link to="/" className="text-reset logo" onClick={() => setShowSidebar((state) => !state)}>
                 <img src={logos} alt="Profle" className="logo-pic" />
               </Link>
             </Offcanvas.Title>
-          </Offcanvas.Header>
+          </Offcanvas.Header> */}
           <Offcanvas.Body className="pe-0 pb-1 d-flex flex-column bg-light">
             <Link to="/" className="text-reset logo d-none d-lg-block pe-5 pt-3">
               <img src={logos} alt="Profle" className="logo-pic" />

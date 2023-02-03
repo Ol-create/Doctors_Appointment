@@ -1,53 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Welcome renders correctly 1`] = `
+exports[`CustomDropMenu renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section
-        class="py-2 welcome container-fluid"
-      >
-        <div
-          class="text-center text-light"
-        >
-          <h1>
-            Book-a-Doctor
-          </h1>
-          <p>
-            Welcome to NowDoctor, the only app you will need for taking care of your health
-          </p>
-          <button
-            class="text-light fw-bold px-4 btn btn-primary"
-            type="button"
-          >
-            GET STARTED
-          </button>
-        </div>
-      </section>
+      <div>
+        <input
+          class="mx-3 my-2 w-auto form-control"
+          placeholder="Type to filter..."
+          value=""
+        />
+        <ul
+          class="list-unstyled m-0"
+        />
+      </div>
     </div>
   </body>,
   "container": <div>
-    <section
-      class="py-2 welcome container-fluid"
-    >
-      <div
-        class="text-center text-light"
-      >
-        <h1>
-          Book-a-Doctor
-        </h1>
-        <p>
-          Welcome to NowDoctor, the only app you will need for taking care of your health
-        </p>
-        <button
-          class="text-light fw-bold px-4 btn btn-primary"
-          type="button"
-        >
-          GET STARTED
-        </button>
-      </div>
-    </section>
+    <div>
+      <input
+        class="mx-3 my-2 w-auto form-control"
+        placeholder="Type to filter..."
+        value=""
+      />
+      <ul
+        class="list-unstyled m-0"
+      />
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
