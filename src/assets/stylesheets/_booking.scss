@@ -51,29 +51,4 @@
   row-gap: 0.5rem;
 }
 
-.bookingdeatails {
-  display: flex;
-  flex-direction: column;
 
-  p {
-    margin: 0;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-
-  > div {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    border-bottom: 1px solid lightgray;
-
-    > :first-child {
-      font-weight: bold;
-    }
-
-    > p:last-child {
-      margin-left: 1rem;
-    }
-  }
-}
