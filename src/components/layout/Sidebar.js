@@ -151,17 +151,10 @@ const Sidebar = () => {
                 </li>
               </ul>
               <p className="small m-0">
-              ©2023 Doctors |
+              ©2023 Doctor|
                 {' '}
                 <a href="https://www.linkedin.com/in/edith-oga/" target="_blank" rel="noreferrer">Edith</a>
                 {' '}
-                &
-                {' '}
-                <a href="https://github.com/mullenlucas/" target="_blank" rel="noreferrer">Lucas</a>
-                {' '}
-                &
-                {' '}
-                <a href="https://www.linkedin.com/in/paul-oluyemi/" target="_blank" rel="noreferrer">Paul</a>
               </p>
             </div>
           </Offcanvas.Body>

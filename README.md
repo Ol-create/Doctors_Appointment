@@ -5,27 +5,6 @@
   <h3><b>Doctors Appointment - Frontend</b></h3>
 </div>
 
-# 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
 
 # 📖 Doctors Appointment - Frontend <a name="about-project"></a>
 
@@ -67,9 +46,6 @@
   </ul>
 </details>
 
-## Host link
-
-The frontend is hosted in [onrender](https://panghealth.onrender.com)
 
 ### Key Features <a name="key-features"></a>
 
@@ -105,7 +81,7 @@ rails s -p 3001
 
 ```shell
 cd ..
-git clone https://github.com/Ol-create/Doctors_Appointment_Front_End
+git clone 
 cd doctors_appointment_front_end
 ```
 
@@ -160,20 +136,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Paul Oluyemi**
-
-- GitHub: [@Ol-create](https://github.com/Ol-create)
-- LinkedIn: [LinkedIn](update-link)
-
 👤 **Edith Oga**
 
 - GitHub: [@vigehi](https://github.com/vigehi)
 - LinkedIn: [LinkedIn](update-link)
-
-👤 **Lucas Mullen**
-
-- GitHub: [@mullenlucas](https://github.com/mullenlucas)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-mullen-447312119/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
